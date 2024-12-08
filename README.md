@@ -31,12 +31,10 @@ Plotting functions
 Processing helper functions
 
 NOTEBOOKS
-The src/notebooks folder contains the core source code for the entirety of the analysis, starting from raw data ingestion to model selection and evaluation. The notebooks are numbered from 1.0 to 4.9, with each whole integer indicating a step in the process
-1.0:  Raw focus data pre-processing, including k-means clustering to produce the three distinct focus regions. 
+The src/notebooks folder contains the core source code for the entirety of the analysis, starting from raw data ingestion to model selection and evaluation. The notebooks are numbered from 1.0 to 3.2, with each whole integer indicating a step in the process
+1:  Raw focus data pre-processing, including k-means clustering to produce the three distinct focus regions. 
 2.1 - 2.4: Landscape, climate, and biological / host covariate processing. Some image processing was accomplished using QGIS, which omitted here with discussion in the manuscript. 
-3.0 - 3.3: Model-specific methods, from preprocessing to model development. The maxent model was developed using Maxent version 3.4.4.
-4.1-4.9: Model aggregation and post-processing notebooks, including mapping 
-
+3.0 - 3.2: Model-specific methods, from preprocessing to model development. The maxent model was developed using Maxent version 3.4.4.
 *****************************
 
 Prerequisites
